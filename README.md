@@ -43,3 +43,11 @@ clang version 12.0.1 (kylinsec 12.0.1-6.ky3_5.kb1 0ea4acb4ca019c1c5346adf43186a6
 Target: aarch64-unknown-linux-gnu
 Thread model: posix
 InstalledDir: /usr/bin
+
+
+which mpicc
+/usr/bin/mpicc
+[系统未激活][root@localhost src]# mpicc -show
+clang -fprofile-use=/home/abuild/rpmbuild/BUILD/merged.profdata -fPIC -Wl,-z,noexecstack -I/usr/include/mpich-aarch64 -L/usr/lib64/mpich/lib -Wl,-rpath -Wl,/usr/lib64/mpich/lib -Wl,--enable-new-dtags -lmpi
+
+
